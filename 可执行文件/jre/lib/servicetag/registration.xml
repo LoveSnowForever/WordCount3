@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<registration_data version="1.0">
+   <environment>
+      <hostname>DESKTOP-7C5JT9J</hostname>
+      <hostId/>
+      <osName>Windows 8</osName>
+      <osVersion>6.2</osVersion>
+      <osArchitecture>x86</osArchitecture>
+      <systemModel>GL552VW</systemModel>
+      <systemManufacturer>ASUSTeK COMPUTER INC.</systemManufacturer>
+      <cpuManufacturer>GenuineIntel</cpuManufacturer>
+      <serialNumber>G1N0CV19N575038</serialNumber>
+   </environment>
+   <registry urn="urn:st:1cdaac36-4d6e-45c5-af15-df9509d79f69" version="1.0">
+      <service_tag>
+         <instance_urn>urn:st:1200598b-5cc1-474c-a3af-abfd96d18120</instance_urn>
+         <product_name>Java SE 6 Development Kit</product_name>
+         <product_version>1.6.0_39</product_version>
+         <product_urn>urn:uuid:b58ef9a8-5ae8-11db-a023-080020a9ed93</product_urn>
+         <product_parent_urn>urn:uuid:fdc90b21-018d-4cab-b866-612c7c119ed3</product_parent_urn>
+         <product_parent>Java Platform Standard Edition 6 (Java SE 6)</product_parent>
+         <product_defined_inst_id>id=1.6.0_39-b04 x86,dir=C:\新建文件夹\jre</product_defined_inst_id>
+         <product_vendor>Sun Microsystems</product_vendor>
+         <platform_arch>x86</platform_arch>
+         <timestamp>2018-09-29 01:49:01 GMT</timestamp>
+         <container>global</container>
+         <source>Windows JDK i586 installer</source>
+         <installer_uid>-1</installer_uid>
+      </service_tag>
+      <service_tag>
+         <instance_urn>urn:st:c9862838-6f2f-49c4-8529-e3fc6133006a</instance_urn>
+         <product_name>Java SE 6 Development Kit</product_name>
+         <product_version>1.6.0_39</product_version>
+         <product_urn>urn:uuid:b58ef9a8-5ae8-11db-a023-080020a9ed93</product_urn>
+         <product_parent_urn>urn:uuid:fdc90b21-018d-4cab-b866-612c7c119ed3</product_parent_urn>
+         <product_parent>Java Platform Standard Edition 6 (Java SE 6)</product_parent>
+         <product_defined_inst_id>id=1.6.0_39-b04 x86,dir=C:\新建文件夹</product_defined_inst_id>
+         <product_vendor>Sun Microsystems</product_vendor>
+         <platform_arch>x86</platform_arch>
+         <timestamp>2018-09-29 01:49:01 GMT</timestamp>
+         <container>global</container>
+         <source>Windows JRE installer</source>
+         <installer_uid>-1</installer_uid>
+      </service_tag>
+   </registry>
+</registration_data>
