@@ -26,7 +26,7 @@ public class CountWord {
 		String words = util.fielRead(path);
 		for (int i = 0; i < words.length() - 1; i++)// 最后一个字母特殊考虑
 		{
-			if (words.charAt(i) == ' ' || words.charAt(i) == ';' || words.charAt(i) == ',' || words.charAt(i) == '.')// 出现空格逗号句号分号都算一个单词
+			if (words.charAt(i) == ' ' ||  words.charAt(i) == ',' )// 出现空格逗号都算一个单词
 			{
 				wordNum++;
 			}

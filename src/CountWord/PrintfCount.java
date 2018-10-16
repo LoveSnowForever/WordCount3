@@ -2,25 +2,29 @@ package CountWord;
 
 import java.util.Scanner;
 
+import GUI.CountFrame;
 import Util.WDUtil;
 
+/*
+ * 根据输入的命令获取操作，和文件路径最后计算结果保存到路径中
+ */
 public class PrintfCount {
 
 	CountWord cWord=new CountWord();
 	WDUtil wdUtil=new WDUtil();
-	int charNum=0;
-	int wordNum=0;
-	int enterNum=0;
+	int charNum=0;//字符的数目
+	int wordNum=0;//单词的
+	int enterNum=0;//行数
 
 	
 	
 	public void Print(String[] args)
 	{
 	   String txt=null;
-	   String path=args[args.length-1];
+	   String path=args[args.length-1];//获取文件路径
 	   for(int i=0;i<args.length;i++)
 	   {
-		   String operation=args[i];
+		   String operation=args[i];//获取操作
 		   switch(operation)
 		   {
 		   		case "-c":
@@ -54,6 +58,14 @@ public class PrintfCount {
 		   			wdUtil.fileWrite(args[i+1],result);
 		   			break;
 		   		}
+		   		
+		   		case"-x":
+		   		{
+		   			new CountFrame();//显示GUI界面
+		   		}
+		   		 
+		   		
+		   		
 	   			
 	   		}
 	   		
