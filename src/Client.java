@@ -12,8 +12,9 @@ public class Client {
 		
 		Scanner scanner=new Scanner(System.in);
 		String commands=scanner.nextLine();
-		String[]command =commands.split(" ");
-		printfCount.Print(command);
+		CommandAnalyse commandAnalyse=new CommandAnalyse(commands);
+		
+		printfCount.Print(commandAnalyse.commands);
 		
 		
 	}

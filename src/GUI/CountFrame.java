@@ -85,10 +85,11 @@ public class CountFrame extends JFrame implements ActionListener {
 			JOptionPane.showMessageDialog(null, "选择的文件无效", "操作错误",JOptionPane.WARNING_MESSAGE);  
 		}else if(file.isFile()){
 			String path=file.getAbsolutePath();//获取文件的绝对路径
+			File files=new File(path);
             CountWord countWord=new CountWord();
-            int charCount=countWord.countChar(path);//计算字符数
-			int wordCount=countWord.countWord(path);//计算单词
-			int enterCount=countWord.countEnter(path);//计算行数
+            int charCount=countWord.countChar(file);//计算字符数
+			int wordCount=countWord.countWord(file);//计算单词
+			int enterCount=countWord.countEnter(file);//计算行数
 			
 			charJText.setText(String.valueOf(charCount));//文本框显示值
 			wordJText.setText(String.valueOf(wordCount));
